@@ -11,6 +11,10 @@
 
 
 button {
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+    white-space: nowrap;
     cursor: pointer;
     &:hover {
         background-color: pink; //test

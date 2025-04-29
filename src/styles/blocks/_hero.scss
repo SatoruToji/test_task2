@@ -10,12 +10,12 @@
         }
     }
     &__action {
+        width: 12em;
         &-btn {
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            width: 41px;
-            height: 41px;
+            aspect-ratio: 1;
             padding: 0.5em 0.6em;
             background-color: transparent;
             border: 1px solid #343a3f;
@@ -28,8 +28,10 @@
             display: inline-flex;
             justify-content: center;
             align-items: center;
+            margin-top: 1em;
             padding: 0.8em 0.6em;
             column-gap: 5px;
+            width: 100%;
             background-color: #F4F4F4;
             color: #4888FF;
             border: 1px solid #343a3f;
