@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3%;
+    padding-block: 0.5em;
+    background-color: rgba(244, 244, 244, 1);
+
+    &__list {
+        display: flex;
+        column-gap: 1em;
+    }
+
+    &__link {
+        color: rgba(52, 58, 63, 1);
+    }
+
+    &__schedule {
+        color: rgba(52, 58, 63, 1);
+    }
+
+    &__button {
+        background-color: transparent;
+        color: rgba(52, 58, 63, 1);
+    }
+}

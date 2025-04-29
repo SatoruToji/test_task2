@@ -1,0 +1,11 @@
+#circle {
+    display: grid;
+    place-items: center;
+    width: 5%;
+    aspect-ratio: 1;
+    background-color: #4888ff;
+    background-image: url('/src/images/svg/home.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: circle(50% at 50% 50%);
+}

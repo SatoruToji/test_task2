@@ -50,6 +50,7 @@ module.exports = (env) => {
         devServer: {
             port: env.port ?? 2025,
             open: true,
+            hot: true,
         },
     }
 }

@@ -1,1 +1,18 @@
-@use './blocks/test.scss'
+@use './figures/circle.scss';
+@use './blocks/grid';
+
+// blocks
+@use './blocks/normalize';
+@use './blocks/header';
+@use './blocks/nav';
+@use './blocks/hero';
+@use './blocks/hero-nav';
+
+
+
+button {
+    cursor: pointer;
+    &:hover {
+        background-color: pink; //test
+    }
+}
