@@ -2,7 +2,22 @@
     display: flex;
     justify-content: space-evenly;
 
+    &__container {
+        width: 50%;
+    }
+
     &__subcontainer {
         display: flex;
     }
+
+    &__subcontainer-btns {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+}
+
+.flex__actions {
+    display: flex;
+    column-gap: 1em
 }

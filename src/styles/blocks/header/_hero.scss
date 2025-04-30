@@ -1,4 +1,5 @@
 .hero {
+    margin-block: 1em 1.5em;
     &__lang {
         &-switcher {
             display: inline-flex;
@@ -10,9 +11,13 @@
         }
     }
 
+    &__action {
+        width: 10%;
+
+    }
+
     &__action,
     &__build {
-        width: 10em;
         &-btn {
             display: inline-flex;
             justify-content: center;
@@ -25,16 +30,16 @@
     }
 
     &__action-btn {
-        aspect-ratio: 1;
+        flex-grow: 1;
         padding: 0.5em 0.6em;
         background-color: transparent;
     }
 
     &__build-btn {
-        // margin-top: 1em;
+        margin-top: 1.5em;
         padding: 0.8em 0.6em;
         column-gap: 5px;
-        width: 100%;
+        width: 12em;
         background-color: #f4f4f4;
     }
 }

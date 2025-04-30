@@ -24,3 +24,13 @@ button {
         background-color: pink; //test
     }
 }
+
+a {
+    text-decoration: none;
+   &:hover {
+    color: #4888FF;
+    cursor: context-menu;
+   } 
+}
+
+
