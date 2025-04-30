@@ -7,13 +7,14 @@
 
     &__form {
         position: relative;
+        width:80%;
     }
 
     &__container {
         position: relative;
         display: flex;
         align-items: center;
-        width: 40%;
+        margin: auto;
     }
 
     &__input {

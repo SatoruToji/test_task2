@@ -9,33 +9,32 @@
             background-color: transparent;
         }
     }
-    &__action {
-        width: 12em;
+
+    &__action,
+    &__build {
+        width: 10em;
         &-btn {
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            aspect-ratio: 1;
-            padding: 0.5em 0.6em;
-            background-color: transparent;
+            flex-grow: 1;
             border: 1px solid #343a3f;
             border-radius: 4px;
+            color: #4888ff;
         }
     }
 
-    &__build {
-        &-btn {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 1em;
-            padding: 0.8em 0.6em;
-            column-gap: 5px;
-            width: 100%;
-            background-color: #F4F4F4;
-            color: #4888FF;
-            border: 1px solid #343a3f;
-            border-radius: 4px;
-        }
+    &__action-btn {
+        aspect-ratio: 1;
+        padding: 0.5em 0.6em;
+        background-color: transparent;
+    }
+
+    &__build-btn {
+        // margin-top: 1em;
+        padding: 0.8em 0.6em;
+        column-gap: 5px;
+        width: 100%;
+        background-color: #f4f4f4;
     }
 }

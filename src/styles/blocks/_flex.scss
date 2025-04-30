@@ -1,0 +1,8 @@
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__subcontainer {
+        display: flex;
+    }
+}
