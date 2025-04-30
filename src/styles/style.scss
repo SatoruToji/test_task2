@@ -9,8 +9,6 @@
 @use './blocks/hero';
 @use './blocks/hero-nav';
 
-
-
 button {
     width: fit-content;
     align-self: center;
@@ -20,4 +18,18 @@ button {
     &:hover {
         background-color: pink; //test
     }
+}
+
+main {
+    flex-grow: 1;
+    // background: #672870;
+    background-image: url('/src/images/joystick.png'),
+    linear-gradient(
+        90deg,
+        rgba(103, 40, 112, 1) 25%,
+        rgba(79, 224, 255, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 50vw, contain;
+    background-position: 120% -70%, center;
 }
