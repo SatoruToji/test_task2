@@ -1,13 +1,18 @@
 //utils
 @use './figures/circle.scss';
 @use './blocks/flex';
-
-// blocks
 @use './blocks/normalize';
-@use './blocks/header';
-@use './blocks/nav';
-@use './blocks/hero';
-@use './blocks/hero-nav';
+
+// header
+@use './blocks/header/header';
+@use './blocks/header/nav';
+@use './blocks/header/hero';
+@use './blocks/header/hero-nav';
+
+// main
+@use './blocks/main/main';
+@use './blocks/main/article';
+@use './blocks/main/section';
 
 button {
     width: fit-content;
@@ -18,18 +23,4 @@ button {
     &:hover {
         background-color: pink; //test
     }
-}
-
-main {
-    flex-grow: 1;
-    // background: #672870;
-    background-image: url('/src/images/joystick.png'),
-    linear-gradient(
-        90deg,
-        rgba(103, 40, 112, 1) 25%,
-        rgba(79, 224, 255, 1) 100%
-    );
-    background-repeat: no-repeat;
-    background-size: 50vw, contain;
-    background-position: 120% -70%, center;
 }
